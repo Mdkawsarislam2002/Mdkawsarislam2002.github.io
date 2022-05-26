@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display:ital@1&family=Indie+Flower&family=Kurale&family=Lobster&family=Oswald:wght@500&family=Permanent+Marker&family=Satisfy&display=swap");
+
+@layer components {
+  .menu-iteams {
+    @apply ml-7 mt-7 hidden  font-merriweather text-base text-white transition-colors hover:text-sideColor md:text-xl lg:block xl:mt-5;
+  }
+}
+@layer components {
+  .mobile-iteams {
+    @apply ml-7 mt-7  font-merriweather   text-2xl font-bold text-white transition-colors hover:text-sideColor  lg:block xl:mt-5;
+  }
+}
+
+@layer components {
+  .top-icon {
+    @apply mx-2 h-6;
+  }
+}
+@layer components {
+  .main-concact {
+    @apply my-2;
+  }
+}
+@layer components {
+  .main-contact-icons {
+    @apply px-2 text-xl text-SecondColor transition-colors delay-75 hover:text-sideColor;
+  }
+}
+
+@layer components {
+  .main-btn {
+    @apply my-10 mx-2 border border-sideColor py-4 px-5 leading-10 transition-all duration-300 hover:bg-sideColor;
+  }
+}
+@layer components {
+  .myskil {
+    @apply mx-5 mt-6 h-20 w-11/12 rounded-md bg-slate-800 duration-200 hover:scale-105 hover:bg-gray-700 md:hover:scale-110;
+  }
+}
+@layer components {
+  .skillName {
+    @apply ml-6 pt-2 font-merriweather;
+  }
+}
+@layer components {
+  .skillShow {
+    @apply ml-1 mt-2 inline-block h-3 rounded-2xl  bg-SecondColor transition-all duration-500;
+  }
+}
+@layer components {
+  .skillPersentent {
+    @apply mr-4  text-right font-bold;
+  }
+}
+
+/* portfolio sections */
+
+@layer components {
+  .portfolio-items {
+    @apply m-5 rounded-md bg-slate-800 transition-all duration-200 hover:bg-gray-700;
+  }
+}
+@layer components {
+  .porfoio-img {
+    @apply my-3 mx-auto  h-auto w-11/12 rounded-sm;
+  }
+}
+
+@layer components {
+  .fortfolio-title {
+    @apply mx-7 my-2 text-xl font-bold  capitalize;
+  }
+}
+@layer components {
+  .portfolio-live {
+    @apply my-2 rounded-3xl bg-sideColor py-2 px-3 font-bold uppercase leading-10 text-slate-300 transition-all duration-300  hover:bg-SecondColor hover:text-white;
+  }
+}
+@layer components {
+  .live {
+    @apply my-2 text-center;
+  }
+}
+@layer components {
+  .contact-text {
+    @apply ml-3 text-lg font-semibold;
+  }
+}
+/*  Pricing Table sections */
+@layer components {
+  .plan-name {
+    @apply text-center  text-3xl font-bold text-sideColor;
+  }
+}
+@layer components {
+  .Pricing-table {
+    @apply mx-4 rounded-md border border-zinc-700 bg-slate-800 md:mx-10 lg:mx-6;
+  }
+}
+@layer components {
+  .table-prise {
+    @apply my-2 text-center text-2xl text-sky-200;
+  }
+}
+@layer components {
+  .details {
+    @apply mx-2    text-center  text-lg capitalize text-gray-300;
+  }
+}
+@layer components {
+  .tik {
+    @apply my-2 ml-10 px-2 text-lg font-semibold text-sideColor;
+  }
+}
+
+@layer components {
+  .Pricing-gif {
+    @apply mx-auto;
+  }
+}
+@layer components {
+  .pricing-content {
+    @apply mx-1;
+  }
+}
+@layer components {
+  .hire-btn {
+    @apply mx-auto mb-2  mt-7 flex justify-center rounded-md border border-SecondColor py-2 px-4 align-bottom text-xl uppercase transition-all  hover:border hover:border-sideColor  hover:bg-SecondColor  hover:text-gray-900;
+  }
+}
+@layer components {
+  .tik-items {
+    @apply mx-1;
+  }
+}
+.toggle {
+  left: 0;
+}
