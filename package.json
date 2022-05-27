@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": " npx tailwindcss -i ./src/tailwind.css  -o ./output/style.css -w",
-    "build-p": " postcss ./src/tailwind.css  -o ./output/style.css -w"
+    "build": " npx tailwindcss -i ./src/tailwind.css  -o ./style.css -w",
+    "build-p": " postcss ./src/tailwind.css  -o ./style.css -w"
   },
   "keywords": [],
   "author": "",
